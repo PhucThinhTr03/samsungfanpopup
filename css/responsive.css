@@ -1,0 +1,23 @@
+@media(min-width: 576px) {
+    #layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(min-width: 768px) {
+    #layout {
+        max-width: 720px;
+    }
+}
+
+@media(min-width: 992px) {
+    #layout {
+        max-width: 960px;
+    }
+}
+
+@media(min-width: 1200px) {
+    #layout {
+        max-width: 100%;
+    }
+}

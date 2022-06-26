@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style_signup.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="./js/scroll.js"></script>
+</head>
+
+<body>
+    <main id="layout">
+        <header>
+            <section class="logo">
+                <img src="https://www.reydar.com/wp-content/uploads/2019/08/samsung-logo-png-samsung-logo-png-2104-copy-e1566468362978.png" alt="">
+                <h2 class="title_head"> POP-UP STORE</h2>
+            </section>
+            <nav class="menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="news.html">News</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="signup.html">Sign up</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+                <section class="lang">
+                    <i class="fa fa-1x fa-thin fa-globe" style="color: #fff;"></i>
+                    <a class="lan" href="">Vietnamese</a>
+                    <a class="lan" href="">English</a>
+                </section>
+            </nav>
+            <section class="header_content">
+                <h1>Try your new experience <br>Try your new Galaxy</h1>
+                <p style="font-family:Arial, Helvetica, sans-serif ;">Propel comes with everything you need to get your business rolling.</p>
+            </section>
+        </header>
+        <main class="container">
+            <form id="signup" onsubmit="kiemtra()">
+                <section class="header">
+                    <h3>Sign Up</h3>
+                    <p>Enter all profile and infomation</p>
+                </section>
+                <section class="sep"></section>
+                <section class="inputs">
+                    <input type="email" id="tk" placeholder="Enter your Email" />
+                    <input type="text" id="sdt" placeholder="Enter your phone number" />
+                    <input type="password" id="mk" placeholder="Enter your password" />
+                    <input type="password" id="mkag" placeholder="Password again" />
+                    <div class="checkboxy">
+                        <input name="cecky" id="checky" value="1" type="checkbox" /><label class="terms">I accept all infomation and laws </label>
+                    </div>
+                    <button id="submit">SIGN UP</button>
+                </section>
+
+            </form>
+        </main>
+        <footer>
+            <section class="foot1">
+                <img style="width:200px; height:50px;" src="https://file.hstatic.net/1000065016/file/samsung-wordmark_w.png" alt="">
+                <h2 style="color: #fff; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-left: 15px ;font-weight: 500;
+                font-size: 25px;">Galaxy Pop-Up </h2>
+                <p style="color: #fff; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-left: 450px ;padding-top: 70px;font-weight: 500;
+                font-size: 15px;"> Copyright© 2010-2022 SAMSUNG All Rights Reserved.</p>
+            </section>
+            <section class="foot2">
+                <br><br><br>
+                <i class="fa fa-2x fa-brands fa-instagram" style="width:32px;height:32px;padding-left: 50px;"><a class="neo" href="https://www.instagram.com/samsung_vietnam/">Instagram</a></i><br>
+                <i class="fa fa-2x fa-brands fa-facebook" style="width:32px;height:32px;padding-left: 50px;"><a class="neo" href="https://www.facebook.com/SamsungVietnam/">Facebook</a></i><br>
+                <i class="fa fa-2x fa-brands fa-youtube" style="width:32px;height:32px;padding-left: 50px;"><a class="neo" href="https://www.youtube.com/channel/UCWwgaK7x0_FR1goeSRazfsQ">Youtube</a></i><br>
+                <i class="fa fa-2x fa-brands fa-google" style="width:32px;height:32px;padding-left: 50px;"><a class="neo" href="https://www.samsung.com/vn/">Google</a></i><br>
+            </section>
+        </footer>
+    </main>
+</body>
+
+</html>
